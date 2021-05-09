@@ -1,0 +1,98 @@
+:root {
+    --white: hsl(0, 0%, 100%);
+    --light-grayish-magenta: hsl(300, 24%, 96%);
+    --very-dark-magenta: hsl(300, 43%, 22%);
+}
+* {
+    font-family: 'Spartan', sans-serif;
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+body {
+    height: 100vh;
+    background-color: var(--white);
+    background: 
+        url("../images/bg-pattern-top-desktop.svg") top left no-repeat,
+        url("../images/bg-pattern-bottom-desktop.svg") bottom right no-repeat;
+    background-size: contain;
+    background-size: 40%, 60%;
+}
+main {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+.contenedor-superior,
+.contenedor-testimonios {
+    display: grid;
+    width: 85vw;
+    height: 40vh;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+}
+.contenedor-superior {
+    grid-template-columns: repeat(2, 1fr);
+
+}
+.contenedor-testimonios {
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+
+}
+.ratings {
+    border: 1px solid red;
+    width: 100%;
+}
+.rating {
+    display: flex;
+    width: 60%;
+    padding: 13px;
+    margin: 10px 0px;
+    background-color: var(--light-grayish-magenta);
+    font-size: .6em;
+    font-weight: bold;
+    color: var(--very-dark-magenta);
+    border-radius: 6px;
+    align-items: center;
+/*     background-image: url("../images/icon-star.svg");
+    background-repeat: no-repeat;
+    background-position-y: center; */
+}
+.alineado {
+    padding-bottom: 5px 0px;
+}
+.estrellas {
+    background-image: url(../images/icon-star.svg);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
