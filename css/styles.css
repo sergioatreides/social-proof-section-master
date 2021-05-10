@@ -27,7 +27,7 @@ main {
 }
 .contenedor-superior {
     display: grid;
-    width: 75vw;
+    width: 70vw;
     height: 50vh;
     grid-template-columns: 1fr 1fr;
     align-items: center;
@@ -82,7 +82,7 @@ h2 {
 }
 .contenedor-testimonios {
     display: grid;
-    width: 75vw;
+    width: 70vw;
     height: 37vh;
     grid-template-columns: repeat(3, 1fr);
     margin-top: 2em;
